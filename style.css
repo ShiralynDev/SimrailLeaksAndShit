@@ -49,3 +49,7 @@ div.scroll-container {
 .description p {
     margin: 0px;
 }
+
+#map { 
+    height: 800px;
+}
