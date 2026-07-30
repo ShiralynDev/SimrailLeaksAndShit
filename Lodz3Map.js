@@ -26,6 +26,7 @@ var polygon = L.polygon([
     [52.09800026661646, 19.936861139531214],
     [52.2179626791865, 19.351587610041502]
 ]).addTo(map);
+polygon.setStyle({color:'red', fillColor: '#ff0000'});
 polygon.bindPopup("<img src=\"../public/Lodz3/KutnoLowicz.png\" width=\"512\" height=\"288\"> Kutno Lowicz confirmed to not be in DLC", {
     maxWidth : 512
 });
