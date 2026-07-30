@@ -53,3 +53,11 @@ div.scroll-container {
 #map { 
     height: 800px;
 }
+
+.confirmed {
+    color: green;
+}
+
+.unconfirmed {
+    color: red;
+}
